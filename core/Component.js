@@ -24,6 +24,7 @@ export class Component{
         if(this.className) this.element.className = this.className;
         if(this.id) this.element.id = this.id;
         if(this.textContent) this.element.textContent = this.textContent;
+        if(this.children) this.element.children = this.children;
 
         if(this.children){
             for(const child of this.children){

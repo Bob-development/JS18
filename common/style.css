@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    height: 150px;
+    background-color: darkmagenta;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.btn-keyboard{
+    width: 30px;
+    height: 30px;
+}
+
+.clearBtnWrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.clearBtn{
+    width: 80px;
+    height: 30px;
+}
